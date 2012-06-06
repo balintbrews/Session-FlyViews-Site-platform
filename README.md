@@ -1,7 +1,8 @@
 Session #FlyViews website
 ======================================
 
-This is an example Drupal website that used by Session #FlyViews as a demo material.  It presents how to implement a Views query backend plugin, Views handlers and CTools plugins to display external content provided by a website that has an API.
+This is an example Drupal website that used by Session #FlyViews as a demo material. It presents how to implement a Views query backend plugin, Views handlers and CTools plugins to display external content provided by a website that has an API.
+For this presentation [that website, what we use for getting some content](https://github.com/balintk/Session-FlyViews-Source-Site-platform) is also powered by Drupal, but this is totally irrelevant.
 
 I want to install the site!
 ---------------------------
