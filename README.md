@@ -18,7 +18,7 @@ All right, give me the steps!
 
 1. Clone the repository.
 1. Run the <code>build</code> script. (If you want to rebuild, you also just need to run the script, don't have to do anything else, it removes the <code>web</code> folder, but preserves your <code>sites</code> folder.)
-1. Install the site manually from your favorite browser choosing the _#FlyViews Source_ installation profile, or run the following command inside the <code>web</code> folder:
+1. Install the site manually from your favorite browser choosing the _FlyViews_ installation profile, or run the following command inside the <code>web</code> folder:
 
         drush site-install flyviews --site-name="#FlyViews" --account-pass=admin -y
 
