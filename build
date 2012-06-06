@@ -1,0 +1,22 @@
+#!/bin/bash
+# This is a simple script that can be used to build the system.
+
+if [ -d web ]; then
+    mv web web-old
+fi
+
+drush make --working-copy platform.make web --no-gitinfofile
+
+if [ -d web-old ]; then
+    # sites/all should be populated by our make file, so lets' remove that.
+    rm -rf web-old/sites/all
+    mv web/sites/all web-old/sites/.
+    rm -rf web/sites
+    mv web-old/sites web/sites
+    rm -rf web-old
+fi
+
+if [ -d web/sites/default/files ]; then
+    chmod -R 777 web/sites/default/files
+fi
+
